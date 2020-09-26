@@ -8,7 +8,6 @@ import com.google.gson.reflect.TypeToken;
 
 public class STEP01 {
 	public static void main(String[] args) {
-		
 		// Object(BookDTO) -> JSON(String)
 		System.out.println("안녕하세요");
 		BookDTO dto = new BookDTO("자바", 21000, "에이콘", 670);
